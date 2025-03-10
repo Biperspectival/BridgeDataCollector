@@ -1,0 +1,16 @@
+This document lays out the basics of the card game "bridge" in relation to this project.
+
+Bridge is played with a standard 52 card deck. The cards are dealt to four players. When these players finish the hand,
+rather than shuffling the deck, they set the four hands aside and move to a different table. Then, a new set of four
+players comes and plays the hand. In this way, a single hand can be played by many people. Performance on that hand is
+then ranked, and match points are assigned to the highest scoring partnerships.
+
+The players of a hand are denoted by their compass directions, North, East, South, and West, where the pairs NS and EW
+are partnerships.
+
+Players bid for a contract, and these bids are recorded as Number, Suit. If the number is n, the pair has committed to
+take at least n + 6 tricks. The suit bid determines the trump suit of the contract.
+
+Most games of bridge have the hand records, contracts, and results all uploaded to a central server run by the
+American Contract Bridge League. This server is not built as an easily analyzed database, so this program is focused on
+reformatting the data on the website into a single database.
